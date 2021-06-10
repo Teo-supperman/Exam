@@ -35,7 +35,7 @@ public class ExamController {
 	public void deleteCategory(@RequestBody Long[] id) {
 		examService.delete(id);
 	}
-	@GetMapping("/")
+	@GetMapping
 	public List<Examdto> examdtos() {
 		return examService.findAll();
 	}

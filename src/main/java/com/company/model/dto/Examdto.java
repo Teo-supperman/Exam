@@ -1,7 +1,7 @@
 package com.company.model.dto;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Collection;
 
 import com.company.model.Number;
 
@@ -14,6 +14,6 @@ public class Examdto {
 
 	private Long number;
 
-	private List<Number> numbers = new ArrayList<>();
+	private Collection<Number> numbers = new ArrayList<>();
 
 }

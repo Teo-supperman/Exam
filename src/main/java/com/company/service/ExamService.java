@@ -67,6 +67,7 @@ public class ExamService {
 			examdto.setId(exam.getExamId());
 			examdto.setNumber(exam.getNumberExam());
 			examdto.setNumbers(exam.getNumbers());
+			examdtos.add(examdto);
 		}
 		return examdtos;
 	}

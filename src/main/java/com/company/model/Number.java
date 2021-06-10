@@ -18,5 +18,5 @@ public class Number {
 	private Long number;
 	@ManyToOne
 	@JoinColumn(name = "examId")
-	private Exam supplier;
+	private Exam exam;
 }
